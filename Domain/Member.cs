@@ -2,14 +2,15 @@ namespace Domain
 {
     public class Member
     {
-        public Guid id { get; set; }
-        public string? lastname { get; set; }
-        public string? firstname { get; set; }
-        public string? title { get; set; }
-        public string? officephone { get; set; }
-        public string? mobilephone { get; set; }
-        public string? otherphone { get; set; }
-        public Guid[]? location { get; set; }
-        public bool active { get; set; }
+        public Guid Id { get; set; }
+        public string? EmployeeNumber { get; set; }
+        public string? LastName { get; set; }
+        public string? FirstName { get; set; }
+        public string? Title { get; set; }
+        public string? OfficePhone { get; set; }
+        public string? MobilePhone { get; set; }
+        public string? OtherPhone { get; set; }
+        public Location? Location { get; set; }
+        public bool Active { get; set; }
     }
 }

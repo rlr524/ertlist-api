@@ -2,16 +2,16 @@ namespace Domain
 {
     public class Location
     {
-        public Guid id { get; set; }
-        public string? abbreviation { get; set; }
-        public string? name { get; set; }
-        public string? street { get; set; }
-        public string? city { get; set; }
-        public string? state { get; set; }
-        public string? zip { get; set; }
-        public string? phone { get; set; }
-        public string? region { get; set; }
-        public Guid[]? members { get; set; }
-        public bool active { get; set; }
+        public Guid Id { get; set; }
+        public string? Abbreviation { get; set; }
+        public string? Name { get; set; }
+        public string? Street { get; set; }
+        public string? City { get; set; }
+        public string? State { get; set; }
+        public string? Zip { get; set; }
+        public string? Phone { get; set; }
+        public string? Region { get; set; }
+        public List<Member>? Members { get; set; }
+        public bool Active { get; set; }
     }
 }
