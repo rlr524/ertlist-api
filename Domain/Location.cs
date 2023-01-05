@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Domain
 {
     public class Location
@@ -12,6 +14,8 @@ namespace Domain
         public string? Phone { get; set; }
         public string? Region { get; set; }
         public List<Member>? Members { get; set; }
+        
+        [DefaultValue("true")]
         public bool Active { get; set; }
     }
 }

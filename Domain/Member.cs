@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Domain
 {
     public class Member
@@ -11,6 +13,8 @@ namespace Domain
         public string? MobilePhone { get; set; }
         public string? OtherPhone { get; set; }
         public Location? Location { get; set; }
+        
+        [DefaultValue("true")]
         public bool Active { get; set; }
     }
 }
